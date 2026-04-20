@@ -1,0 +1,134 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container-fluid px-0">
+
+    <!-- HERO SECTION -->
+    <section class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-5 fw-bold mb-3">
+                        Car Service Management System
+                    </h1>
+                    <p class="lead mb-4">
+                        Manage appointments, repair orders, parts, and invoices — all in one place.
+                    </p>
+
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-success btn-lg me-2">
+                            Get Started
+                        </a>
+                        <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-outline-light btn-lg">
+                            Login
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Appointments" asp-action="Index" class="btn btn-success btn-lg">
+                            Go to Dashboard
+                        </a>
+                    }
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <img src="https://cdn-icons-png.flaticon.com/512/741/741407.png"
+                         class="img-fluid"
+                         style="max-height:280px;"
+                         alt="Car Service">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">What You Can Do</h2>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <div class="mb-3 fs-1">📅</div>
+                            <h5 class="card-title">Appointments</h5>
+                            <p class="card-text">
+                                Schedule and manage service appointments quickly and easily.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <div class="mb-3 fs-1">🛠️</div>
+                            <h5 class="card-title">Repair Orders</h5>
+                            <p class="card-text">
+                                Track repair progress, diagnostics, labor, and parts usage.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <div class="mb-3 fs-1">🧾</div>
+                            <h5 class="card-title">Invoices</h5>
+                            <p class="card-text">
+                                Automatically calculate totals and generate customer invoices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUICK ACTIONS -->
+    @if (User.Identity.IsAuthenticated)
+    {
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4 fw-bold">Quick Actions</h2>
+
+                <div class="row g-3 justify-content-center">
+                    <div class="col-md-3">
+                        <a asp-controller="Appointments" asp-action="Create"
+                           class="btn btn-outline-primary w-100 py-3 shadow-sm">
+                            ➕ New Appointment
+                        </a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a asp-controller="RepairOrders" asp-action="History"
+                           class="btn btn-outline-success w-100 py-3 shadow-sm">
+                            📜 Repair History
+                        </a>
+                    </div>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <div class="col-md-3">
+                            <a asp-controller="Users" asp-action="Index"
+                               class="btn btn-outline-danger w-100 py-3 shadow-sm">
+                                👤 Manage Users
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+    }
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light text-center py-3">
+        <small>
+            © @DateTime.Now.Year — CSMS | Built with ASP.NET Core
+        </small>
+    </footer>
+
+</div>

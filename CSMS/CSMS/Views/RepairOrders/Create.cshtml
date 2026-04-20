@@ -1,0 +1,37 @@
+﻿@model CSMS.Models.ViewModels.RepairOrderViewModel
+
+<h1 class="text-center mb-4">Create Repair Order</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="card shadow-sm rounded">
+            <div class="card-body">
+                <form asp-action="Create" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" asp-for="AppointmentId" />
+
+                    <div class="mb-3">
+                        <label asp-for="Diagnosis" class="form-label"></label>
+                        <textarea asp-for="Diagnosis" class="form-control"></textarea>
+                        <span asp-validation-for="Diagnosis" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="WorkDescription" class="form-label"></label>
+                        <textarea asp-for="WorkDescription" class="form-control"></textarea>
+                        <span asp-validation-for="WorkDescription" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-grid gap-2 mt-3">
+                        <button type="submit" class="btn btn-success">Create Repair Order</button>
+                        <a asp-action="Details" asp-controller="Appointments" asp-route-id="@Model.AppointmentId" class="btn btn-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

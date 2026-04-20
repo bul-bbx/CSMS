@@ -1,0 +1,32 @@
+﻿@model CSMS.Models.RepairPart
+
+<h1 class="text-center mb-4 text-danger">Delete Repair Part</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-6 col-lg-5">
+        <div class="card shadow-sm rounded border-danger">
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-4">Part</dt>
+                    <dd class="col-sm-8">@Model.Part?.Name</dd>
+
+                    <dt class="col-sm-4">Quantity</dt>
+                    <dd class="col-sm-8">@Model.Quantity</dd>
+
+                    <dt class="col-sm-4">Total Price</dt>
+                    <dd class="col-sm-8">@Model.TotalPrice.ToString("C")</dd>
+                </dl>
+
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" name="repairOrderId" value="@Model.RepairOrderId" />
+                    <input type="hidden" name="partId" value="@Model.PartId" />
+
+                    <div class="d-grid gap-2 mt-3">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                        <a asp-action="Index" asp-route-repairOrderId="@Model.RepairOrderId" class="btn btn-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

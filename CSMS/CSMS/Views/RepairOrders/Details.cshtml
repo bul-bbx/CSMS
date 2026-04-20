@@ -1,0 +1,85 @@
+﻿@model CSMS.Models.RepairOrder
+
+<h1 class="text-center mb-4">Repair Order Details</h1>
+
+<div class="card shadow-sm rounded mb-3">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">Appointment</dt>
+            <dd class="col-sm-8">@Model.Appointment.AppointmentDate.ToString("yyyy-MM-dd HH:mm")</dd>
+
+            <dt class="col-sm-4">Car</dt>
+            <dd class="col-sm-8">@Model.Appointment.Car.Brand @Model.Appointment.Car.Model (@Model.Appointment.Car.LicensePlate)</dd>
+
+            <dt class="col-sm-4">Service</dt>
+            <dd class="col-sm-8">@Model.Appointment.ServiceType?.Name</dd>
+
+            <dt class="col-sm-4">Status</dt>
+            <dd class="col-sm-8">@Model.Status</dd>
+
+            <dt class="col-sm-4">Diagnosis</dt>
+            <dd class="col-sm-8">@Model.Diagnosis</dd>
+
+            <dt class="col-sm-4">Work Description</dt>
+            <dd class="col-sm-8">@Model.WorkDescription</dd>
+
+            <dt class="col-sm-4">Start</dt>
+            <dd class="col-sm-8">@Model.StartDatetime?.ToString("yyyy-MM-dd HH:mm")</dd>
+
+            <dt class="col-sm-4">End</dt>
+            <dd class="col-sm-8">@Model.EndDatetime?.ToString("yyyy-MM-dd HH:mm")</dd>
+
+            <dt class="col-sm-4">Parts Used</dt>
+            <dd class="col-sm-8">@ViewBag.repairPartsCount</dd>
+
+            <dt class="col-sm-4">Parts Total</dt>
+            <dd class="col-sm-8">@((Model.RepairParts?.Sum(rp => rp.TotalPrice) ?? 0).ToString("C"))</dd>
+
+            <dt class="col-sm-4">Labor Hours</dt>
+            <dd class="col-sm-8">@Model.LaborHours</dd>
+
+            <dt class="col-sm-4">Labor Cost</dt>
+            <dd class="col-sm-8">@Model.LaborCost.ToString("C")</dd>
+        </dl>
+
+        <div class="d-flex flex-wrap gap-2 justify-content-center mt-3">
+            <a asp-controller="RepairParts" asp-action="Index" asp-route-repairOrderId="@Model.Id" class="btn btn-info">Manage Parts</a>
+
+            @if (Model.Status == "Open")
+            {
+                <form asp-action="Start" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button type="submit" class="btn btn-primary">Start Work</button>
+                </form>
+            }
+
+            @if (Model.Status == "InProgress")
+            {
+                <form asp-action="Complete" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button type="submit" class="btn btn-success">Complete Work</button>
+                </form>
+            }
+
+            @if (Model.Status != "Completed" && Model.Status != "Cancelled")
+            {
+                <form asp-action="Cancel" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button type="submit" class="btn btn-danger">Cancel Work</button>
+                </form>
+            }
+
+            @if (Model.Invoice != null)
+            {
+                <a asp-controller="Invoices" asp-action="Details" asp-route-id="@Model.Invoice.Id" class="btn btn-dark">View Invoice</a>
+            }
+        </div>
+
+        <div class="d-grid gap-2 mt-3">
+            @if (Model.Status != "Completed")
+            {
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit Repair Order</a>
+            }
+        </div>
+    </div>
+</div>

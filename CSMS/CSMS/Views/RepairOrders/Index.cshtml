@@ -1,0 +1,53 @@
+﻿@model IEnumerable<CSMS.Models.RepairOrder>
+@{
+    int appId = ViewBag.AppointmentId;
+}
+
+<h1 class="text-center mb-4">Repair Orders</h1>
+
+@if (!Model.Any())
+{
+    <a asp-action="Create" asp-route-appointmentId="@appId" class="btn btn-success mb-3">Create Repair Order</a>
+}
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered align-middle text-center">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Appointment</th>
+                <th>Car</th>
+                <th>Service</th>
+                <th>Status</th>
+                <th>Parts Used</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ro in Model.Select((value, index) => new { value, index }))
+            {
+                var partsCount = ro.value.RepairParts?.Sum(rp => rp.Quantity) ?? 0;
+                <tr>
+                    <td>@(ro.index + 1)</td>
+                    <td>@ro.value.Appointment.AppointmentDate.ToString("yyyy-MM-dd HH:mm")</td>
+                    <td>@ro.value.Appointment.Car.Brand @ro.value.Appointment.Car.Model</td>
+                    <td>@ro.value.Appointment.ServiceType?.Name</td>
+                    <td>
+                        <span class="badge @(ro.value.Status=="Completed"?"bg-success":
+                                                                          ro.value.Status == "InProgress" ? "bg-warning text-dark" :
+                                                                          ro.value.Status == "Open" ? "bg-primary" :
+                                                                          ro.value.Status == "Cancelled" ? "bg-danger" : "bg-secondary")">
+                        @ro.value.Status
+                    </span>
+                </td>
+                <td><span class="badge bg-info">@partsCount</span></td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@ro.value.Id" class="btn btn-sm btn-info me-1">Details</a>
+                    <a asp-action="Edit" asp-route-id="@ro.value.Id" class="btn btn-sm btn-warning me-1">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@ro.value.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+                        }
+        </tbody>
+    </table>
+</div>

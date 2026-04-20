@@ -1,0 +1,110 @@
+﻿@model IEnumerable<CSMS.Models.Appointment>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Appointments Calendar";
+
+    int year = ViewBag.Year;
+    int month = ViewBag.Month;
+    var firstDay = new DateTime(year, month, 1);
+    int daysInMonth = DateTime.DaysInMonth(year, month);
+
+    var allAppointments = Model.ToList();
+    var appointmentsByDay = Model
+        .GroupBy(a => a.AppointmentDate)
+        .ToDictionary(g => g.Key, g => g.Count());
+
+    DateTime prevMonth = firstDay.AddMonths(-1);
+    DateTime nextMonth = firstDay.AddMonths(1);
+}
+
+<h1 class="text-center mb-4">Appointments - @firstDay.ToString("MMMM yyyy")</h1>
+
+<div class="d-flex justify-content-between mb-3">
+    <a asp-action="Index" asp-route-year="@prevMonth.Year" asp-route-month="@prevMonth.Month" class="btn btn-outline-primary">&laquo; Previous</a>
+    <a asp-action="Index" asp-route-year="@nextMonth.Year" asp-route-month="@nextMonth.Month" class="btn btn-outline-primary">Next &raquo;</a>
+</div>
+
+<table class="table table-bordered calendar-table text-center">
+    <thead>
+        <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int dayOfWeek = (int)firstDay.DayOfWeek;
+            int currentDay = 1;
+            int totalCells = ((dayOfWeek + daysInMonth + 6) / 7) * 7; // full weeks
+        }
+
+        @for (int i = 0; i < totalCells / 7; i++)
+        {
+            <tr>
+                @for (int j = 0; j < 7; j++)
+                {
+                    if ((i == 0 && j < dayOfWeek) || currentDay > daysInMonth)
+                    {
+                        <td></td>
+                    }
+                    else
+                    {
+                        var currentDate = new DateTime(year, month, currentDay);
+                        int count = appointmentsByDay.ContainsKey(currentDate) ? appointmentsByDay[currentDate] : 0;
+                        <td class="align-top p-2">
+                            <div class="card shadow-sm h-100">
+                                <div class="card-body p-2 d-flex flex-column justify-content-between">
+                                    <strong>@currentDay</strong>
+                                    @if (count > 0)
+                                    {
+                                        <span class="badge bg-info mb-2">@count</span>
+                                    }
+                                    <div class="d-grid gap-1 mt-auto">
+                                        <a asp-action="DayDetails"
+                                           asp-route-year="@year"
+                                           asp-route-month="@month"
+                                           asp-route-day="@currentDay"
+                                           class="btn btn-sm btn-primary">
+                                            Details
+                                        </a>
+                                        <a asp-action="Create"
+                                           asp-route-date="@currentDate.ToString("yyyy-MM-dd")"
+                                           class="btn btn-sm btn-success">
+                                            Create
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        currentDay++;
+                    }
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    .calendar-table td {
+        height: 140px;
+        vertical-align: top;
+        padding: 4px;
+    }
+
+        .calendar-table td .card {
+            height: 100%;
+        }
+
+            .calendar-table td .card .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 0.5rem;
+            }
+</style>

@@ -1,0 +1,69 @@
+﻿@model CSMS.Models.ViewModels.EditUserViewModel
+
+
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+<div class="d-flex justify-content-center my-4">
+    <div class="card w-100" style="max-width:520px;">
+        <div class="card-body">
+            <h3 class="card-title text-center mb-4">Edit User</h3>
+
+            <form asp-action="Edit" method="post" class="mx-2">
+                @Html.AntiForgeryToken()
+                <input type="hidden" asp-for="Id" />
+
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+                <div class="mb-3">
+                    <label asp-for="UserName" class="form-label"></label>
+                    <input asp-for="UserName" class="form-control form-control-sm" />
+                    <span asp-validation-for="UserName" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label"></label>
+                    <input asp-for="Email" type="email" class="form-control form-control-sm" />
+                    <span asp-validation-for="Email" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PhoneNumber" class="form-label"></label>
+                    <input asp-for="PhoneNumber" type="tel" class="form-control form-control-sm" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger small"></span>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input asp-for="EmailConfirmed" class="form-check-input" type="checkbox" />
+                    <label asp-for="EmailConfirmed" class="form-check-label"></label>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Roles</label>
+                    @foreach (var role in Model.AllRoles)
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   name="SelectedRoles"
+                                   value="@role"
+                                   @(Model.SelectedRoles.Contains(role) ? "checked" : "") />
+                            <label class="form-check-label">@role</label>
+                        </div>
+                    }
+                </div>
+
+
+                <div class="text-center mt-3">
+                    <button type="submit" class="btn btn-primary btn-sm">Save</button>
+                    <a asp-action="Index" class="btn btn-secondary btn-sm ms-2">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

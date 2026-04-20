@@ -1,0 +1,40 @@
+﻿@model CSMS.Models.Part
+@{
+    ViewData["Title"] = "Delete Part";
+}
+
+<h1 class="text-center mb-4 text-danger">@ViewData["Title"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="card shadow-sm rounded border-danger">
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-4">Name</dt>
+                    <dd class="col-sm-8">@Model.Name</dd>
+
+                    <dt class="col-sm-4">Manufacturer</dt>
+                    <dd class="col-sm-8">@Model.Manufacturer</dd>
+
+                    <dt class="col-sm-4">Part Number</dt>
+                    <dd class="col-sm-8">@Model.PartNumber</dd>
+
+                    <dt class="col-sm-4">Unit Price</dt>
+                    <dd class="col-sm-8">@Model.UnitPrice.ToString("C")</dd>
+
+                    <dt class="col-sm-4">Stock Quantity</dt>
+                    <dd class="col-sm-8">@Model.StockQuantity</dd>
+                </dl>
+
+                <form asp-action="DeleteConfirmed" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" asp-for="Id" />
+                    <div class="d-grid gap-2 mt-3">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

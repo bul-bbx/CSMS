@@ -1,0 +1,41 @@
+﻿@model IEnumerable<CSMS.Models.RepairOrder>
+@{
+    var repairTimes = ViewBag.RepairTimes as IDictionary<int, dynamic> ?? new Dictionary<int, dynamic>();
+
+}
+
+<h1 class="text-center mb-4">Repair History</h1>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info text-center">No completed repair orders found.</div>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        @foreach (var order in Model)
+        {
+            var times = repairTimes.ContainsKey(order.Id) ? repairTimes[order.Id] : new { Start = "N/A", End = "N/A" };
+            <div class="col">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Repair Order #@order.Id</h5>
+                        <p class="card-text mb-1"><strong>Car:</strong> @order.Appointment.Car.Brand @order.Appointment.Car.Model</p>
+                        <p class="card-text mb-1"><strong>Customer:</strong> @order.Appointment.Car.Customer.UserName</p>
+                        <p class="card-text mb-1"><strong>Service:</strong> @order.Appointment.ServiceType?.Name</p>
+                        <p class="card-text mb-1"><strong>Date:</strong> @times.Start - @times.End</p>
+                        <p class="card-text mb-1">
+                            <strong>Status:</strong>
+                            <span class="badge @(order.Status == "Completed" ? "bg-success" : "bg-secondary")">@order.Status</span>
+                        </p>
+                        <p class="card-text mb-1"><strong>Parts Used:</strong> @order.RepairParts?.Sum(rp => rp.Quantity) ?? 0</p>
+                        <p class="card-text mb-3"><strong>Labor Cost:</strong> @order.LaborCost:C</p>
+                        <div class="mt-auto text-center">
+                            <a asp-action="Details" asp-route-id="@order.Id" class="btn btn-sm btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

@@ -1,0 +1,29 @@
+﻿@model CSMS.Models.Part
+@{
+    ViewData["Title"] = "Part Details";
+}
+
+<h1 class="text-center mb-4">@Model.Name</h1>
+
+<div class="card shadow-sm rounded">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">Manufacturer</dt>
+            <dd class="col-sm-8">@Model.Manufacturer</dd>
+
+            <dt class="col-sm-4">Part Number</dt>
+            <dd class="col-sm-8">@Model.PartNumber</dd>
+
+            <dt class="col-sm-4">Unit Price</dt>
+            <dd class="col-sm-8">@Model.UnitPrice.ToString("C")</dd>
+
+            <dt class="col-sm-4">Stock Quantity</dt>
+            <dd class="col-sm-8">@Model.StockQuantity</dd>
+        </dl>
+
+        <div class="d-grid gap-2 mt-3">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
+    </div>
+</div>

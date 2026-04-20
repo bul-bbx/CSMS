@@ -1,0 +1,44 @@
+﻿@model CSMS.Models.RepairOrder
+
+<h1 class="text-center mb-4">Repair Parts for Repair Order #@Model.Id</h1>
+
+<div class="d-flex justify-content-between mb-3">
+    <a asp-action="Create" asp-route-repairOrderId="@Model.Id" class="btn btn-success">Add Part</a>
+    <a asp-action="Details" asp-controller="RepairOrders" asp-route-id="@Model.Id" class="btn btn-secondary">Back to Repair Order</a>
+</div>
+
+@if (!Model.RepairParts.Any())
+{
+    <div class="alert alert-info text-center">No parts added yet.</div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover text-center">
+            <thead class="table-light">
+                <tr>
+                    <th>#</th>
+                    <th>Part</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var rp in Model.RepairParts.Select((value, index) => new { value, index }))
+                {
+                    <tr>
+                        <td>@(rp.index + 1)</td>
+                        <td>@rp.value.Part?.Name</td>
+                        <td>@rp.value.Quantity</td>
+                        <td>@rp.value.TotalPrice.ToString("C")</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-repairOrderId="@rp.value.RepairOrderId" asp-route-partId="@rp.value.PartId" class="btn btn-sm btn-info me-1">Edit</a>
+                            <a asp-action="Delete" asp-route-repairOrderId="@rp.value.RepairOrderId" asp-route-partId="@rp.value.PartId" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

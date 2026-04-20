@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model List<IdentityUser>
+
+<div class="text-center my-4">
+<h2>Users</h2>
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>User Name</th>
+            <th>Email</th>
+            <th>Id</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.Id</td>
+                <td class="text-center">
+                    <div class="btn-group" role="group">
+                        <a asp-action="Edit"
+                           asp-route-id="@user.Id"
+                           class="btn btn-sm btn-outline-primary d-inline-flex align-items-center"
+                           title="Edit car">
+                            <svg class="me-1" width="14" height="14" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                                <path d="M12.146 0.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-9.5 9.5a.5.5 0 0 1-.233.13l-4 1a.5.5 0 0 1-.621-.62l1-4a.5.5 0 0 1 .13-.232l9.5-9.5zM11.207 2L3 10.207V13h2.793L14 4.793 11.207 2z" />
+                            </svg>
+                            Edit
+                        </a>
+
+                        <a asp-action="Details"
+                           asp-route-id="@user.Id"
+                           class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center"
+                           title="View details">
+                            <svg class="me-1" width="14" height="14" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM8 2a6 6 0 1 1 0 12A6 6 0 0 1 8 2z" />
+                                <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 .877-.252 1.02-.598l.088-.416c.066-.29.02-.453-.27-.523l-.451-.083.082-.381 2.29-.287.082-.38-.45-.083c-.294-.07-.352-.176-.288-.469l.738-3.468c.194-.897-.105-1.319-.808-1.319-.545 0-.877.252-1.02.598l-.088.416c-.066.29-.02.453.27.523l.451.083-.082.381z" />
+                            </svg>
+                            Details
+                        </a>
+
+                        <a asp-action="Delete"
+                           asp-route-id="@user.Id"
+                           class="btn btn-sm btn-outline-danger d-inline-flex align-items-center"
+                           title="Delete car">
+                            <svg class="me-1" width="14" height="14" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                                <path d="M5.5 5.5A.5.5 0 0 1 6 5h4a.5.5 0 0 1 .5.5V6h1v8a2 2 0 0 1-2 2H5.5a2 2 0 0 1-2-2V6h1v-.5zM14.5 3a1 1 0 0 1-1 1H12v9a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V4h-1.5a1 1 0 0 1 0-2h3.086a1 1 0 0 1 .707.293L7 2h2l.707-.707A1 1 0 0 1 10.414 1H13.5a1 1 0 0 1 1 1z" />
+                            </svg>
+                            Delete
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

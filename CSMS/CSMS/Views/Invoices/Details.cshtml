@@ -1,0 +1,80 @@
+﻿@model CSMS.Models.Invoice
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Invoice @Model.InvoiceNumber</h1>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h5 class="card-title mb-3">Invoice Info</h5>
+            <dl class="row">
+                <dt class="col-sm-4">Customer</dt>
+                <dd class="col-sm-8">@Model.Customer.UserName</dd>
+
+                <dt class="col-sm-4">Repair Order</dt>
+                <dd class="col-sm-8">#@Model.RepairOrderId</dd>
+
+                <dt class="col-sm-4">Issue Date</dt>
+                <dd class="col-sm-8">@Model.IssueDate.ToString("yyyy-MM-dd")</dd>
+
+                <dt class="col-sm-4">Due Date</dt>
+                <dd class="col-sm-8">@Model.DueDate?.ToString("yyyy-MM-dd")</dd>
+
+                <dt class="col-sm-4">Status</dt>
+                <dd class="col-sm-8">
+                    <span class="badge @(Model.Status == "Paid" ? "bg-success" : "bg-warning")">
+                        @Model.Status
+                    </span>
+                </dd>
+
+                <dt class="col-sm-4">Subtotal</dt>
+                <dd class="col-sm-8">@Model.Subtotal.ToString("C")</dd>
+
+                <dt class="col-sm-4">Tax</dt>
+                <dd class="col-sm-8">@Model.Tax.ToString("C")</dd>
+
+                <dt class="col-sm-4">Total Amount</dt>
+                <dd class="col-sm-8 fw-bold">@Model.TotalAmount.ToString("C")</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h5 class="card-title mb-3">Invoice Items</h5>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover text-center">
+                    <thead class="table-light">
+                        <tr>
+                            <th>#</th>
+                            <th>Description</th>
+                            <th>Quantity</th>
+                            <th>Unit Price</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Items.Select((value, index) => new { value, index }))
+                        {
+                            <tr>
+                                <td>@(item.index + 1)</td>
+                                <td>@item.value.Description</td>
+                                <td>@item.value.Quantity</td>
+                                <td>@item.value.UnitPrice.ToString("C")</td>
+                                <td>@item.value.TotalPrice.ToString("C")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-wrap gap-2">
+        @if (!string.IsNullOrEmpty(Model.PdfPath))
+        {
+            <a href="@Model.PdfPath" target="_blank" class="btn btn-primary">Download PDF</a>
+        }
+
+        <a asp-action="@(ViewBag.isMy ? "My" : "Index")" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

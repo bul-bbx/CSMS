@@ -1,0 +1,33 @@
+﻿@model CSMS.Models.RepairOrder
+
+<h1 class="text-center mb-4 text-danger">Delete Repair Order</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="card shadow-sm rounded border-danger">
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-4">Appointment</dt>
+                    <dd class="col-sm-8">@Model.Appointment.AppointmentDate.ToString("yyyy-MM-dd HH:mm")</dd>
+
+                    <dt class="col-sm-4">Car</dt>
+                    <dd class="col-sm-8">@Model.Appointment.Car.Brand @Model.Appointment.Car.Model</dd>
+
+                    <dt class="col-sm-4">Status</dt>
+                    <dd class="col-sm-8">@Model.Status</dd>
+
+                    <dt class="col-sm-4">Diagnosis</dt>
+                    <dd class="col-sm-8">@Model.Diagnosis</dd>
+                </dl>
+
+                <form asp-action="DeleteConfirmed" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <div class="d-grid gap-2 mt-3">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                        <a asp-action="Index" asp-route-appointmentId="@Model.AppointmentId" class="btn btn-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

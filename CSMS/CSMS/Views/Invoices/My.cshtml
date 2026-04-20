@@ -1,0 +1,66 @@
+﻿@model IEnumerable<CSMS.Models.Invoice>
+
+@{
+    ViewData["Title"] = "My Invoices";
+}
+
+<h1 class="text-center mb-4">My Invoices</h1>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info text-center">
+        You don’t have any invoices yet.
+    </div>
+}
+else
+{
+    <table class="table table-bordered table-hover text-center align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Invoice #</th>
+                <th>Issue Date</th>
+                <th>Due Date</th>
+                <th>Total</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var inv in Model.Select((value, index) => new { value, index }))
+            {
+                <tr>
+                    <td>@(inv.index + 1)</td>
+                    <td>@inv.value.InvoiceNumber</td>
+                    <td>@inv.value.IssueDate.ToString("yyyy-MM-dd")</td>
+                    <td>@inv.value.DueDate?.ToString("yyyy-MM-dd")</td>
+                    <td>@inv.value.TotalAmount.ToString("C")</td>
+                    <td>
+                        <span class="badge
+                                    @(inv.value.Status == "Paid" ? "bg-success" :
+                                                            inv.value.Status == "Overdue" ? "bg-danger" : "bg-warning")">
+                    @inv.value.Status
+                </span>
+            </td>
+            <td>
+                <a asp-action="Details"
+                   asp-route-id="@inv.value.Id"
+                   asp-route-isMy = "true"
+                   class="btn btn-sm btn-info">
+                    Details
+                </a>
+
+                @if (!string.IsNullOrEmpty(inv.value.PdfPath))
+                        {
+                            <a href="@inv.value.PdfPath"
+                               target="_blank"
+                               class="btn btn-sm btn-primary ms-1">
+                                PDF
+                            </a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

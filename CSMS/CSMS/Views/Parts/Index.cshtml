@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CSMS.Models.Part>
+@{
+    ViewData["Title"] = "Parts";
+}
+
+<h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+<div class="mb-3 text-center">
+    <a asp-action="Create" class="btn btn-success">Add New Part</a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info text-center">No parts available.</div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover text-center">
+            <thead class="table-light">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Manufacturer</th>
+                    <th>Part Number</th>
+                    <th>Unit Price</th>
+                    <th>Stock Quantity</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var part in Model.Select((value, index) => new { value, index }))
+                {
+                    <tr>
+                        <td>@(part.index + 1)</td>
+                        <td>@part.value.Name</td>
+                        <td>@part.value.Manufacturer</td>
+                        <td>@part.value.PartNumber</td>
+                        <td>@part.value.UnitPrice.ToString("C")</td>
+                        <td>@part.value.StockQuantity</td>
+                        <td class="d-flex justify-content-center gap-1">
+                            <a asp-action="Details" asp-route-id="@part.value.Id" class="btn btn-sm btn-info">Details</a>
+                            <a asp-action="Edit" asp-route-id="@part.value.Id" class="btn btn-sm btn-warning">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@part.value.Id" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

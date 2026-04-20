@@ -1,0 +1,121 @@
+﻿@model CSMS.Models.Appointment
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Appointment Details";
+    var ro = ViewBag.RO;
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm rounded">
+                <div class="card-body">
+
+                    <!-- Appointment Header -->
+                    <h3 class="card-title text-center mb-4">
+                        @Model.AppointmentDate.ToString("dddd, dd MMMM yyyy HH:mm")
+                    </h3>
+
+                    <!-- Appointment Info -->
+                    <dl class="row">
+                        <dt class="col-sm-4">Car</dt>
+                        <dd class="col-sm-8">@Model.Car?.Brand @Model.Car?.Model (@Model.Car?.LicensePlate)</dd>
+
+                        <dt class="col-sm-4">Service</dt>
+                        <dd class="col-sm-8">@Model.ServiceType?.Name</dd>
+
+                        <dt class="col-sm-4">Status</dt>
+                        <dd class="col-sm-8">
+                            <span class="badge
+                                @(Model.Status == "Scheduled" ? "bg-secondary" :
+                                                                    Model.Status == "InProgress" ? "bg-primary" :
+                                                                    Model.Status == "Completed" ? "bg-success" :
+                                                                    "bg-danger")">
+                                @Model.Status
+                            </span>
+                        </dd>
+
+                        @if (!string.IsNullOrWhiteSpace(Model.Notes))
+                        {
+                            <dt class="col-sm-4">Notes</dt>
+                            <dd class="col-sm-8">@Model.Notes</dd>
+                        }
+                    </dl>
+                    @if (Model.Status != "Completed")
+                    {
+                        <hr />
+
+                        <!-- Status Actions -->
+                        <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
+
+                            @if (Model.Status == "Scheduled")
+                            {
+                                @if (User.IsInRole("Mechanic") || User.IsInRole("Admin"))
+                                {
+                                    <form asp-action="Start" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@Model.Id" />
+                                        <button type="submit" class="btn btn-primary">Start Service</button>
+                                    </form>
+                                }
+                                <form asp-action="Cancel" method="post" class="d-inline">
+                                    <input type="hidden" name="id" value="@Model.Id" />
+                                    <button type="submit" class="btn btn-danger">Cancel</button>
+                                </form>
+                            }
+
+                            @if (Model.Status == "InProgress")
+                            {
+                                @if (User.IsInRole("Mechanic") || User.IsInRole("Admin"))
+                                {
+                                    <form asp-action="Complete" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@Model.Id" />
+                                        <button type="submit" class="btn btn-success">Complete Service</button>
+                                    </form>
+                                }
+                            }
+                        </div>
+                    }
+                    @if (User.IsInRole("Mechanic") || User.IsInRole("Admin"))
+                    {
+                        <hr />
+
+                        <!-- Repair Orders Section -->
+                        <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
+                            <a asp-controller="RepairOrders"
+                            asp-action="Index"
+                            asp-route-appointmentId="@Model.Id"
+                            class="btn btn-primary">
+                                View Repair Orders
+                            </a>
+
+
+                            @if (ro == null)
+                            {
+                                <a asp-controller="RepairOrders"
+                                asp-action="Create"
+                                asp-route-appointmentId="@Model.Id"
+                                class="btn btn-success">
+                                    Create Repair Order
+                                </a>
+                            }
+
+                        </div>
+                    }
+                    <hr />
+
+                    <!-- Navigation Buttons -->
+                    <div class="d-grid gap-2 mt-3">
+                        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                            Edit Appointment
+                        </a>
+                        <a asp-action="Index" class="btn btn-secondary">
+                            Back to Calendar
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

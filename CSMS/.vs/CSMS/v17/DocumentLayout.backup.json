@@ -1,0 +1,1596 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\invoices\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\invoices\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\invoices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\invoices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\invoices\\my.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\invoices\\my.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\appointments\\daydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\appointments\\daydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\appointments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\appointments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\controllers\\emailnotificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\controllers\\emailnotificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\controllers\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\controllers\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\controllers\\servicetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\controllers\\servicetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\controllers\\repairorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\controllers\\repairorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\controllers\\repairpartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\controllers\\repairpartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\servicetypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\servicetypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\parts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\parts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\repairparts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\repairparts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\repairparts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\repairparts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\repairorders\\indexall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\repairorders\\indexall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\repairorders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\repairorders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\viewmodels\\repairorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\viewmodels\\repairorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\repairorders\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\repairorders\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\viewmodels\\carcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\viewmodels\\carcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\servicetypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\servicetypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\servicetypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\servicetypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\servicetypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\servicetypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\servicetypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\servicetypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\repairparts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\repairparts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\repairparts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\repairparts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\repairorders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\repairorders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\repairorders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\repairorders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\repairorders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\repairorders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\repairorders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\repairorders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\parts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\parts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\parts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\parts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\parts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\parts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\parts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\parts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\auditlogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\auditlogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\appointments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\appointments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\appointments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\appointments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\repairorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\repairorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\services\\appointmentreminderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\services\\appointmentreminderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\44740\\AppData\\Local\\SourceServer\\c4a8b102f56ab2ce6697a7ad4307f748aaa59bbdbaa7a4d838ff55b1d33024a9\\MailMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\repairpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\repairpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\services\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\services\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\services\\invoicepdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\services\\invoicepdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\services\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\services\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\helpers\\auditlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\helpers\\auditlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\helpers\\invoicepdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\helpers\\invoicepdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\viewmodels\\repairpartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\viewmodels\\repairpartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CSMS/True/SqlTable/dbo.RepairParts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251218221633_M3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\viewmodels\\partviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\viewmodels\\partviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\viewmodels\\appointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\viewmodels\\appointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CSMS/True/SqlTable/dbo.Appointments.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\viewmodels\\servicetypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\viewmodels\\servicetypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\areas\\identity\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\areas\\identity\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\emailnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\emailnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251216113206_M3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251216113038_M2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251216112832_M1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\models\\repairhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\models\\repairhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\views\\emailtemplates\\eventreminder.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\views\\emailtemplates\\eventreminder.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\migrations\\20251216113449_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\migrations\\20251216113449_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\migrations\\20251219112643_m3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\migrations\\20251219112643_m3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\migrations\\20251218221234_m2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\migrations\\20251218221234_m2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\migrations\\20251221130156_m5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\migrations\\20251221130156_m5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|c:\\users\\44740\\desktop\\projects li be\\car service management system\\csms\\csms\\migrations\\20251221124816_m4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184998F-7654-4EF5-AE22-003774569131}|CSMS\\CSMS.csproj|solutionrelative:csms\\migrations\\20251221124816_m4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmailNotificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\EmailNotificationsController.cs",
+              "RelativeDocumentMoniker": "CSMS\\Controllers\\EmailNotificationsController.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\EmailNotificationsController.cs",
+              "RelativeToolTip": "CSMS\\Controllers\\EmailNotificationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:18:03.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CSMS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CSMS\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:58:48.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvoicesController.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\InvoicesController.cs",
+              "RelativeDocumentMoniker": "CSMS\\Controllers\\InvoicesController.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\InvoicesController.cs",
+              "RelativeToolTip": "CSMS\\Controllers\\InvoicesController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:17:38.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Invoices\\Details.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Invoices\\Details.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Invoices\\Details.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Invoices\\Details.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAswE0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T12:18:12.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "My.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Invoices\\My.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Invoices\\My.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Invoices\\My.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Invoices\\My.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwC8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T13:29:13.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Invoices\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Invoices\\Index.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Invoices\\Index.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Invoices\\Index.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowC0AAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T11:34:29.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "CSMS\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "CSMS\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:43:04.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T11:36:24.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DayDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\DayDetails.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Appointments\\DayDetails.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\DayDetails.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Appointments\\DayDetails.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwEUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:34:32.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\Details.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Appointments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\Details.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Appointments\\Details.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAkwGcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:20:34.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "CSMS\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "CSMS\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAAwOYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:16:24.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuditLogsController.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\AuditLogsController.cs",
+              "RelativeDocumentMoniker": "CSMS\\Controllers\\AuditLogsController.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\AuditLogsController.cs",
+              "RelativeToolTip": "CSMS\\Controllers\\AuditLogsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:18:27.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PartsController.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\PartsController.cs",
+              "RelativeDocumentMoniker": "CSMS\\Controllers\\PartsController.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\PartsController.cs",
+              "RelativeToolTip": "CSMS\\Controllers\\PartsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:17:16.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServiceTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\ServiceTypesController.cs",
+              "RelativeDocumentMoniker": "CSMS\\Controllers\\ServiceTypesController.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\ServiceTypesController.cs",
+              "RelativeToolTip": "CSMS\\Controllers\\ServiceTypesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:39:15.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RepairOrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\RepairOrdersController.cs",
+              "RelativeDocumentMoniker": "CSMS\\Controllers\\RepairOrdersController.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\RepairOrdersController.cs",
+              "RelativeToolTip": "CSMS\\Controllers\\RepairOrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:16:51.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RepairPartsController.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\RepairPartsController.cs",
+              "RelativeDocumentMoniker": "CSMS\\Controllers\\RepairPartsController.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\RepairPartsController.cs",
+              "RelativeToolTip": "CSMS\\Controllers\\RepairPartsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T22:10:36.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Appointments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\Index.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Appointments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T13:34:54.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Program.cs",
+              "RelativeDocumentMoniker": "CSMS\\Program.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Program.cs",
+              "RelativeToolTip": "CSMS\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:20:44.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IndexAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\IndexAll.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\RepairOrders\\IndexAll.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\IndexAll.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\RepairOrders\\IndexAll.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T12:35:26.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\RepairOrders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\Index.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\RepairOrders\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T20:38:04.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\ServiceTypes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\ServiceTypes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\ServiceTypes\\Delete.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\ServiceTypes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:52:43.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "CSMS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T12:41:29.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "CSMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T12:41:36.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "CSMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "CSMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAkwHsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T13:05:36.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAkwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T13:15:43.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "CSMS\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\DbInitializer.cs",
+              "RelativeToolTip": "CSMS\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T12:21:15.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T12:42:40.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\EditUserViewModel.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\ViewModels\\EditUserViewModel.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\EditUserViewModel.cs",
+              "RelativeToolTip": "CSMS\\Models\\ViewModels\\EditUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T12:54:25.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T12:52:29.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "CSMS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T12:41:45.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "CSMS\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T12:41:59.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairParts\\Create.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\RepairParts\\Create.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairParts\\Create.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\RepairParts\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T22:14:15.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairParts\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\RepairParts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairParts\\Index.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\RepairParts\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T22:13:36.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Parts\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Parts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Parts\\Index.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Parts\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T21:26:52.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Cars\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Cars\\Index.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Cars\\Index.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Cars\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T11:46:35.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\ServiceTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\ServiceTypes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\ServiceTypes\\Index.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\ServiceTypes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:51:45.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RepairOrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\RepairOrderViewModel.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\ViewModels\\RepairOrderViewModel.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\RepairOrderViewModel.cs",
+              "RelativeToolTip": "CSMS\\Models\\ViewModels\\RepairOrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T20:44:39.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\History.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\RepairOrders\\History.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\History.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\RepairOrders\\History.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T10:02:47.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Cars\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Cars\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Cars\\Edit.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Cars\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T11:47:36.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\ServiceTypes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\ServiceTypes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\ServiceTypes\\Edit.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\ServiceTypes\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:52:14.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\ServiceTypes\\Details.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\ServiceTypes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\ServiceTypes\\Details.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\ServiceTypes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:52:30.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\ServiceTypes\\Create.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\ServiceTypes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\ServiceTypes\\Create.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\ServiceTypes\\Create.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:51:59.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairParts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\RepairParts\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairParts\\Edit.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\RepairParts\\Edit.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T22:14:32.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairParts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\RepairParts\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairParts\\Delete.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\RepairParts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T22:14:52.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CarCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\CarCreateViewModel.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\ViewModels\\CarCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\CarCreateViewModel.cs",
+              "RelativeToolTip": "CSMS\\Models\\ViewModels\\CarCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T12:53:08.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\RepairOrders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\Delete.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\RepairOrders\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T20:38:37.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\Details.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\RepairOrders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\Details.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\RepairOrders\\Details.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T20:36:54.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\RepairOrders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\Edit.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\RepairOrders\\Edit.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T20:38:25.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\Create.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\RepairOrders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\RepairOrders\\Create.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\RepairOrders\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T20:36:39.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Parts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Parts\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Parts\\Delete.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Parts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T21:27:38.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Parts\\Details.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Parts\\Details.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Parts\\Details.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Parts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T21:27:20.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Parts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Parts\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Parts\\Edit.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Parts\\Edit.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T21:27:56.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Parts\\Create.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Parts\\Create.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Parts\\Create.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Parts\\Create.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T21:27:03.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Appointments\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\Delete.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Appointments\\Delete.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:21:14.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\AuditLogs\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\AuditLogs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\AuditLogs\\Index.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\AuditLogs\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T13:04:00.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Cars\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Cars\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Cars\\Delete.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Cars\\Delete.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T11:48:48.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Cars\\Create.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Cars\\Create.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Cars\\Create.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Cars\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T11:47:03.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Appointments\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\Edit.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Appointments\\Edit.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:20:50.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Cars\\Details.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Cars\\Details.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Cars\\Details.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Cars\\Details.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T11:48:21.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\Create.cshtml",
+              "RelativeDocumentMoniker": "CSMS\\Views\\Appointments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\Appointments\\Create.cshtml",
+              "RelativeToolTip": "CSMS\\Views\\Appointments\\Create.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:19:45.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "RepairOrder.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\RepairOrder.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\RepairOrder.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\RepairOrder.cs",
+              "RelativeToolTip": "CSMS\\Models\\RepairOrder.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T09:06:27.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\Appointment.cs",
+              "RelativeToolTip": "CSMS\\Models\\Appointment.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA4wBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T12:32:24.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\appsettings.json",
+              "RelativeDocumentMoniker": "CSMS\\appsettings.json",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\appsettings.json",
+              "RelativeToolTip": "CSMS\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-16T08:49:53.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AppointmentReminderService.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Services\\AppointmentReminderService.cs",
+              "RelativeDocumentMoniker": "CSMS\\Services\\AppointmentReminderService.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Services\\AppointmentReminderService.cs",
+              "RelativeToolTip": "CSMS\\Services\\AppointmentReminderService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T12:29:42.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "MailMessage.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\AppData\\Local\\SourceServer\\c4a8b102f56ab2ce6697a7ad4307f748aaa59bbdbaa7a4d838ff55b1d33024a9\\MailMessage.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\c4a8b102f56ab2ce6697a7ad4307f748aaa59bbdbaa7a4d838ff55b1d33024a9\\MailMessage.cs",
+              "ToolTip": "C:\\Users\\44740\\AppData\\Local\\SourceServer\\c4a8b102f56ab2ce6697a7ad4307f748aaa59bbdbaa7a4d838ff55b1d33024a9\\MailMessage.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\c4a8b102f56ab2ce6697a7ad4307f748aaa59bbdbaa7a4d838ff55b1d33024a9\\MailMessage.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAFkAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:25:12.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "CSMS\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Services\\EmailService.cs",
+              "RelativeToolTip": "CSMS\\Services\\EmailService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T10:10:33.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "20251221130156_M5.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\20251221130156_M5.cs",
+              "RelativeDocumentMoniker": "CSMS\\Migrations\\20251221130156_M5.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\20251221130156_M5.cs",
+              "RelativeToolTip": "CSMS\\Migrations\\20251221130156_M5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:01:56.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\AuditLog.cs",
+              "RelativeToolTip": "CSMS\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T09:20:57.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "RepairPart.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\RepairPart.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\RepairPart.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\RepairPart.cs",
+              "RelativeToolTip": "CSMS\\Models\\RepairPart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T09:11:51.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20251221124816_M4.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\20251221124816_M4.cs",
+              "RelativeDocumentMoniker": "CSMS\\Migrations\\20251221124816_M4.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\20251221124816_M4.cs",
+              "RelativeToolTip": "CSMS\\Migrations\\20251221124816_M4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T12:48:16.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Services\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "CSMS\\Services\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Services\\EmailSettings.cs",
+              "RelativeToolTip": "CSMS\\Services\\EmailSettings.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T10:57:49.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IEmailServices.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Services\\IEmailServices.cs",
+              "RelativeDocumentMoniker": "CSMS\\Services\\IEmailServices.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Services\\IEmailServices.cs",
+              "RelativeToolTip": "CSMS\\Services\\IEmailServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T10:09:46.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "InvoicePdfService.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Services\\InvoicePdfService.cs",
+              "RelativeDocumentMoniker": "CSMS\\Services\\InvoicePdfService.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Services\\InvoicePdfService.cs",
+              "RelativeToolTip": "CSMS\\Services\\InvoicePdfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:10:06.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "AuditLogger.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Helpers\\AuditLogger.cs",
+              "RelativeDocumentMoniker": "CSMS\\Helpers\\AuditLogger.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Helpers\\AuditLogger.cs",
+              "RelativeToolTip": "CSMS\\Helpers\\AuditLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:49:54.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "CSMS\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "CSMS\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:15:52.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\Invoice.cs",
+              "RelativeToolTip": "CSMS\\Models\\Invoice.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvyUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:30:01.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "InvoicePdfGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Helpers\\InvoicePdfGenerator.cs",
+              "RelativeDocumentMoniker": "CSMS\\Helpers\\InvoicePdfGenerator.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Helpers\\InvoicePdfGenerator.cs",
+              "RelativeToolTip": "CSMS\\Helpers\\InvoicePdfGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:26:02.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "InvoiceItem.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\InvoiceItem.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\InvoiceItem.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\InvoiceItem.cs",
+              "RelativeToolTip": "CSMS\\Models\\InvoiceItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:30:26.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ServiceType.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ServiceType.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\ServiceType.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ServiceType.cs",
+              "RelativeToolTip": "CSMS\\Models\\ServiceType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T09:03:01.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "20251219112643_M3.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\20251219112643_M3.cs",
+              "RelativeDocumentMoniker": "CSMS\\Migrations\\20251219112643_M3.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\20251219112643_M3.cs",
+              "RelativeToolTip": "CSMS\\Migrations\\20251219112643_M3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T11:26:43.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Part.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\Part.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\Part.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\Part.cs",
+              "RelativeToolTip": "CSMS\\Models\\Part.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T09:09:58.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\Car.cs",
+              "RelativeToolTip": "CSMS\\Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:26:55.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "RepairPartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\RepairPartViewModel.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\ViewModels\\RepairPartViewModel.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\RepairPartViewModel.cs",
+              "RelativeToolTip": "CSMS\\Models\\ViewModels\\RepairPartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T22:10:06.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "dbo.RepairParts.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CSMS/True/SqlTable/dbo.RepairParts.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CSMS/True/SqlTable/dbo.RepairParts.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-18T22:57:46.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20251218221633_M3.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251218221633_M3.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\CSMS\\CSMS\\Migrations\\20251218221633_M3.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251218221633_M3.cs",
+              "RelativeToolTip": "..\\..\\..\\CSMS\\CSMS\\Migrations\\20251218221633_M3.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T22:16:33.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "20251218221234_M2.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\20251218221234_M2.cs",
+              "RelativeDocumentMoniker": "CSMS\\Migrations\\20251218221234_M2.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\20251218221234_M2.cs",
+              "RelativeToolTip": "CSMS\\Migrations\\20251218221234_M2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T22:12:35.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "PartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\PartViewModel.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\ViewModels\\PartViewModel.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\PartViewModel.cs",
+              "RelativeToolTip": "CSMS\\Models\\ViewModels\\PartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T21:37:49.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "AppointmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\AppointmentViewModel.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\ViewModels\\AppointmentViewModel.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\AppointmentViewModel.cs",
+              "RelativeToolTip": "CSMS\\Models\\ViewModels\\AppointmentViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T15:31:28.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "dbo.Appointments.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CSMS/True/SqlTable/dbo.Appointments.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CSMS/True/SqlTable/dbo.Appointments.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-16T15:07:31.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CSMS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "CSMS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T15:24:41.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "ServiceTypeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\ServiceTypeViewModel.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\ViewModels\\ServiceTypeViewModel.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\ViewModels\\ServiceTypeViewModel.cs",
+              "RelativeToolTip": "CSMS\\Models\\ViewModels\\ServiceTypeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T14:55:24.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CSMS\\Areas\\Identity\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Areas\\Identity\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CSMS\\Areas\\Identity\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAUwA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:50:33.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "EmailNotification.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\EmailNotification.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\EmailNotification.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\EmailNotification.cs",
+              "RelativeToolTip": "CSMS\\Models\\EmailNotification.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T09:18:35.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "20251216113449_M1.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\20251216113449_M1.cs",
+              "RelativeDocumentMoniker": "CSMS\\Migrations\\20251216113449_M1.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Migrations\\20251216113449_M1.cs",
+              "RelativeToolTip": "CSMS\\Migrations\\20251216113449_M1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:34:49.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "20251216113206_M3.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251216113206_M3.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\CSMS\\CSMS\\Migrations\\20251216113206_M3.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251216113206_M3.cs",
+              "RelativeToolTip": "..\\..\\..\\CSMS\\CSMS\\Migrations\\20251216113206_M3.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:32:07.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20251216113038_M2.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251216113038_M2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\CSMS\\CSMS\\Migrations\\20251216113038_M2.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251216113038_M2.cs",
+              "RelativeToolTip": "..\\..\\..\\CSMS\\CSMS\\Migrations\\20251216113038_M2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:30:39.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "20251216112832_M1.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251216112832_M1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\CSMS\\CSMS\\Migrations\\20251216112832_M1.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\CSMS\\CSMS\\Migrations\\20251216112832_M1.cs",
+              "RelativeToolTip": "..\\..\\..\\CSMS\\CSMS\\Migrations\\20251216112832_M1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:28:32.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "RepairHistory.cs",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\RepairHistory.cs",
+              "RelativeDocumentMoniker": "CSMS\\Models\\RepairHistory.cs",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Models\\RepairHistory.cs",
+              "RelativeToolTip": "CSMS\\Models\\RepairHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T09:08:26.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "EventReminder.html",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\EmailTemplates\\EventReminder.html",
+              "RelativeDocumentMoniker": "CSMS\\Views\\EmailTemplates\\EventReminder.html",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Projects li be\\Car Service Management System\\CSMS\\CSMS\\Views\\EmailTemplates\\EventReminder.html",
+              "RelativeToolTip": "CSMS\\Views\\EmailTemplates\\EventReminder.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-16T08:52:28.045Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
