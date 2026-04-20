@@ -1,57 +1,71 @@
 # CSMS Documentation
 
-## 1. Project Overview
-This document provides a thorough overview of the CSMS project, including its functionality, structure, and design elements.
+## Table of Contents
+1. Introduction  
+2. Website Functions  
+3. Design Patterns  
+4. Models  
+5. Controllers  
+6. Services  
+7. Database Structure  
+8. Authentication  
+9. Detailed Workflows  
 
-## 2. Architecture and Design Patterns
-The CSMS project utilizes various design patterns including MVC, Singleton, and Dependency Injection. Each component is designed to adhere to these principles for modularity and scalability.
+---
 
-## 3. Data Models with Relationships
-### User Model
-- Attributes: id, username, password, role  
-- Relationships: 
-    - One-to-Many with Orders  
+## 1. Introduction
+This document serves as a comprehensive guide to the CSMS (Customer Service Management System) platform. It covers all aspects of the system, including its functionality, design patterns, models, controllers, services, database structure, authentication processes, and detailed workflows.  
 
-### Order Model
-- Attributes: id, user_id, status, total_price  
-- Relationships: 
-    - Belongs to User
+## 2. Website Functions
+### 2.1 User Registration
+- Description of user registration process.
+- Flow of data and interactions in the system.
 
-### Diagrams  
-```
-User ----< Order
-```
+### 2.2 User Login
+- Detailed explanation of the login process.
+- Security measures in place.
 
-## 4. All Controllers and Their Functions
-### UserController
-- `createUser()`: Creates a new user.  
-- `login()`: Handles user authentication.  
+### 2.3 Customer Management
+- Overview of customer management capabilities.
 
-### OrderController
-- `createOrder()`: Creates a new order.  
-- `getOrder()`: Retrieves order details.  
+### 2.4 Service Requests
+- Process for submitting service requests.
 
-## 5. Services and Business Logic
-The CSMS services handle the core business logic, including user management and order processing. This is where crucial validations and data manipulations occur.
+### 2.5 Reporting
+- Available reporting functionalities.
 
-## 6. Database Structure
-The CSMS database includes tables for users, orders, products, and transactions, designed to facilitate efficient data retrieval and management.
+## 3. Design Patterns
+Various design patterns utilized throughout the application including:
+- MVC (Model-View-Controller)
+- Repository Pattern
 
-## 7. Authentication and Authorization
-CSMS implements JWT for secure authentication, ensuring that users are properly authorized to access resources.
+## 4. Models
+Detailed descriptions of all models in the system:
+- User Model
+- Service Request Model
 
-## 8. API Endpoints and Workflows
-- `POST /api/users`: Create a new user  
-- `POST /api/orders`: Create a new order  
+## 5. Controllers
+Overview of the controllers, their responsibilities, and functions:
+- User Controller
+- Service Request Controller
 
-Detailed workflows associated with these endpoints are illustrated below.  
-```
-User Creation Workflow:
-1. User submits signup form
-2. System validates data
-3. Create user in DB
-4. Respond with success
-```
+## 6. Services
+Description of services provided:
+- Authentication Service
+- Notification Service
 
-# Conclusion
-This documentation will continually be updated to reflect changes to the CSMS project. For any questions or contributions, please contact the project maintainers.
+## 7. Database Structure
+Diagram and explanation of the database schema, tables, and relationships.
+
+## 8. Authentication
+Details on how authentication is managed, including:
+- JWT tokens
+- Session management
+
+## 9. Detailed Workflows
+Step-by-step walkthroughs of the primary workflows in the system, including:
+- New user registration flow  
+- Service request handling process  
+
+---  
+This document is essential for developers, maintainers, and users to understand all functionalities and workflows of the CSMS platform, ensuring systematic use and development of the application.
